@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: #444444;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    touch-action: manipulation;
+}
+[comp="Leaderboard"] {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 500px;
+    height: fit-content;
+    width: 500px;
+}
+
+
+
+[comp="Leaderboard"] h1 {
+    text-align: center;
+}
+
+[comp="Leaderboard"] div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#update-cooldown {
+    width: 100%;
+    height: 5px;
+    background-color: wheat;
+    border-radius: 5px;
+    margin: 10px;
+    animation: cooldown 10s ease-in;
+}
+
+[comp="Leaderboard"] ol {
+    flex-grow: 1;
+    overflow-y: scroll;
+    height: 500px;
+    color: rgb(138, 138, 138);
+
+    h3 {
+        margin: 3px;
+    }
+}
+
+[comp="Leaderboard"] ol li:nth-child(1) {
+    color: goldenrod;
+}
+
+[comp="Leaderboard"] ol li:nth-child(2) {
+    color: silver;
+}
+
+[comp="Leaderboard"] ol li:nth-child(3) {
+    color: #CD7F32;
+}
+
+[comp="Leaderboard"] li h3 {
+    font-size: 40px;
+}
+
+[comp="Leaderboard"] li {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+/*mobile*/
+@media only screen and (max-width: 1000px) {
+    [comp="Leaderboard"] {
+        width: 90%;
+        height: calc(100vh - 300px);
+    }
+
+    [comp="Leaderboard"] h1 {
+        font-size: 50px;
+    }
+
+    #update-cooldown {
+        height: 10px;
+    }
+
+    [comp="Leaderboard"] li {
+        margin-left: 30px;
+    }
+
+    [comp="Leaderboard"] li h3 {
+        font-size: 50px;
+    }
+
+    [comp="Leaderboard"] li {
+        font-size: 50px;
+    }
+
+}
