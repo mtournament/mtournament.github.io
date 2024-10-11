@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 100 500 300" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1, 0, 0, 1, -5, -45.400001525878906)">
+    <path d="M141 151.2h59L83.2 400 9 438.9zm-123.2-3.3 56.3 127.6 25.9-59.8L76.7 148z" filter="none" style="fill: rgb(48, 151, 61);"/>
+    <path style="transform-box: fill-box; fill: rgb(48, 151, 61);" transform="rotate(180 0 0)" filter="none" transform-origin="50% 50%" d="M117.8 287.3 169.1 400l30.9-62.5-23.3-50.2z"/>
+    <path d="M150.8 272.5H251L216.9 312l50 87.9h-47.8z" filter="none" style="fill: rgb(48, 151, 61);"/>
+    <path filter="none" d="M255.7 275.4h44.5l-25 31.3h-44.5zm-24.4 37.2h44l56.4 87.4h-44z" style="fill: rgb(48, 151, 61);"/>
+    <path d="M351.8 340.4c10.4 19 27.2 44.5 37.9 59.6h-44.1l-56.4-87.4 25.6-37H380l-48 37.1 56.2-12.8z" filter="none" style="fill: rgb(48, 151, 61);"/>
+    <path d="m424.2 442.9-411-1.8 69.2-34.6 319.3 3zm-22.6-33.4 3.8-9.3-36.2-52.6 40.9-62.6 36.7-9.3-39.6 59 22 1.2 23.2-41.9 42.5-16.6L424 443l-22.3-33.2" filter="none" style="fill: rgb(48, 151, 61);"/>
+  </g>
+</svg>
